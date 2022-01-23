@@ -12,8 +12,6 @@ import {
 
 export default class Home extends React.Component {
 
-  
-
   constructor(props) {
     super(props);
     this.state = {
@@ -92,14 +90,16 @@ const styles = StyleSheet.create({
   title: {
     fontStyle:'normal',
     fontWeight: 'bold',
-    fontSize: 20
+    fontSize: 20,
+    color :'black'
   },
     name: {
       margin: 5,
+      color : 'black'
     },
     all:{
       width: '100%',
-      height: '100%'
+      height: '100%',
     },
     container: {
       flex: 1,

@@ -44,10 +44,12 @@ const styles = StyleSheet.create({
   title: {
     fontStyle:'normal',
     fontWeight: 'bold',
-    fontSize: 20
+    fontSize: 20,
+    color :'black'
   },
     name: {
       margin: 5,
+      color :'black'
     },
     all:{
       width: '100%',
